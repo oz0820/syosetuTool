@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         syosetuTool
-// @version      2022.11.23.0
+// @version      2022.11.23.1
 // @description  小説家になろうをキーボードだけで読むためのツール。
 // @author       oz0820
 // @match        https://ncode.syosetu.com/*
@@ -47,6 +47,10 @@
             window.scroll(window.scrollX, window.scrollY-100);
         } else if (e.code === "ArrowDown") {
             window.scroll(window.scrollX, window.scrollY+100);
+        } else if (e.code === "IntlRo") {
+            if (siori_url.length > 0) {
+                siori_url[0].click();
+            }
         } else {
             // console.log(e.key);
         }
