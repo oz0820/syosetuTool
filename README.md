@@ -1,5 +1,14 @@
 # syosetuTool
 
 小説家になろうをキーボードだけで読むためのツール。  
-https://raw.githubusercontent.com/oz0820/syosetuTool/main/shosetuTool.user.js
+
+### インストール
+- [tampermonkey](https://www.tampermonkey.net/)とかユーザースクリプトを実行できる拡張機能をインスコする。  
+- [ここ](https://raw.githubusercontent.com/oz0820/syosetuTool/main/shosetuTool.user.js)(このプロジェクトの最新コード)押す。  
+- 指示に従ってインストール。  
+
+### 使い方
+- 上下キー： ページスクロールを少し加速してある。
+- 左右キー： 前・次のエピソードに移動。
+- Ctrlキー： 次のエピソードに移動。
 
