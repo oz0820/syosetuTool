@@ -27,6 +27,10 @@
         let siori_url = document.getElementsByName("siori_url");
 
         if (e.code === "ControlRight" || e.code === "ControlLeft") {
+            // 範囲外ページに移動することを防ぐ
+            if (now_episode === total_episode) {
+                return;
+            }
             next += now_episode+1;
             location.assign(next);
         } else if (e.code === "ArrowRight") {
